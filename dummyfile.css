@@ -13,6 +13,45 @@ h2{
 h3{
     color: #422600;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+  }
 
+.box1{
+    background-color: white;
+    padding: 1cm;
+    border: 2mm solid rgb(85, 14, 4);
+    margin: auto;
+    height:100%;
+    width:1000px;
+}
 
+.box2{
+    background-color: white;
+    padding-top: 1cm;
+    padding-left: 1cm;
+    padding-bottom: 1cm;
+    padding-right: 1cm;
+    border: 2mm solid rgb(85, 14, 4);
+    margin: 20px 750px;
+    height:100%;
+    width:1000px;
+}
 
+.box3{
+    background-color: white;
+    padding: 1.5cm 1cm;
+    border: 2mm solid rgb(85, 14, 4);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 750px;
+    margin-left: 750px;
+    height:100%;
+    width:1000px;
+}
+/*
+section{
+    border: 10px solid gray;
+    height: 90vh
+}
+*/
