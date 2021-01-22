@@ -36,6 +36,8 @@ body {
     margin: 20px 750px;
     height:100%;
     width:1000px;
+    position:relative;
+    right:50px;
 }
 
 .box3{
@@ -49,6 +51,7 @@ body {
     height:100%;
     max-width:1000px;
     min-width: 900px;
+
 }
 
 .display1{
@@ -57,6 +60,10 @@ body {
 
 .display2{
     display:inline;
+}
+.position1{
+    position:fixed;
+    background-color: white;
 }
 /*
 section{
