@@ -17,5 +17,7 @@ body {
     font-family: 'Roboto', sans-serif;
   }
 
-
+.display1{
+    display: inline-block;
+}
 
