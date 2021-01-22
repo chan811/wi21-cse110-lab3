@@ -21,3 +21,17 @@ body {
     display: inline-block;
 }
 
+.flexbox{
+    display: flex;
+    background-color: white;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.flexitem{
+    order: -1;
+}
+.flexitem2{
+    flex-grow: 2;
+}
+
