@@ -37,9 +37,11 @@ body {
     margin: 20px 750px;
     height:100%;
     width:1000px;
+    position:relative;
+    right:50px;
 }
 
-.box3{
+section.box3{
     background-color: white;
     padding: 1.5cm 1cm;
     border: 2mm solid rgb(85, 14, 4);
@@ -55,19 +57,37 @@ body {
 .display1{
     display: none;
 }
-.display3{
+#display3{
     display: inline-block;
 }
 .display2{
     display:inline;
 }
+
+.position1{
+    position:fixed;
+    background-color: white;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:royalblue;
+}
+
 /*
 section{
     border: 10px solid gray;
     height: 90vh
 }
 */
+ul li{
+    background-color: bisque;
+}
 
+ol > li{
+    background-color: bisque;
+}
 @media all and (max-width:900px){
     body {
         background:skyblue;
