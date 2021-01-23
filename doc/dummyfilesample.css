@@ -1,18 +1,14 @@
+*{
+    color: rgb(85, 14, 4);
+}
 body {
     background-color:bisque /* add color to the background*/
 }
 
-h1{
-    color:rgb(85, 14, 4);
+h1, h2, h3{
+    color:rgb(255, 34, 5);
 }
 
-h2{
-    color:hsl(4, 65%, 22%);
-}
-
-h3{
-    color: #422600;
-}
 body {
     font-family: 'Roboto', sans-serif;
   }
@@ -40,3 +36,18 @@ body {
     justify-items: center;
 }
 
+section.display1 ~ section{
+    border: 3px solid rgb(85, 14, 4);
+}
+
+section.redBorder{
+    border: 3px solid rgb(85, 14, 4);
+}
+
+section.redBorder + section{
+    border: 3px solid rgb(85, 14, 4);
+}
+
+[whitebackground="true"]{
+    background-color: white;
+}
