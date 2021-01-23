@@ -17,9 +17,7 @@ body {
     font-family: 'Roboto', sans-serif;
   }
 
-.display1{
-    display: inline-block;
-}
+
 
 .flexbox{
     display: flex;
@@ -33,5 +31,12 @@ body {
 }
 .flexitem2{
     flex-grow: 2;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 700px auto 700px ;
+    grid-template-rows:300px;
+    justify-items: center;
 }
 

@@ -1,3 +1,4 @@
+/*NOTE TO GRADER there is a second css file for the sample.html located under the docs folder */
 body {
     background-color:bisque /* add color to the background*/
 }
@@ -57,7 +58,9 @@ body {
 .display1{
     display: none;
 }
-
+.display3{
+    display: inline-block;
+}
 .display2{
     display:inline;
 }
