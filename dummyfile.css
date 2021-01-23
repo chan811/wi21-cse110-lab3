@@ -67,3 +67,11 @@ section{
     height: 90vh
 }
 */
+
+@media all and (max-width:900px){
+    body {
+        background:skyblue;
+        border: solid black;
+    }
+
+}
